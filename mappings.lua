@@ -1,6 +1,7 @@
 local opts = { noremap = true, silent = true }
 vim.api.nvim_set_keymap("i", "<C-j>", "<Plug>(copilot-next)", opts)
 vim.api.nvim_set_keymap("i", "<C-k>", "<Plug>(copilot-previous)", opts)
+vim.api.nvim_set_keymap("i", "<C-g>", "<Plug>(copilot-dismiss)", opts)
 
 -- Mapping data with "desc" stored directly by vim.keymap.set().
 --
