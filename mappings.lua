@@ -1,3 +1,7 @@
+local opts = { noremap = true, silent = true }
+vim.api.nvim_set_keymap("i", "<C-j>", "<Plug>(copilot-next)", opts)
+vim.api.nvim_set_keymap("i", "<C-k>", "<Plug>(copilot-previous)", opts)
+
 -- Mapping data with "desc" stored directly by vim.keymap.set().
 --
 -- Please use this mappings table to set keyboard mapping since this is the
