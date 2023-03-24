@@ -20,6 +20,8 @@ return {
   -- Set colorscheme to use
   colorscheme = "astrodark",
 
+  vim.api.nvim_set_option_value("colorcolumn", "51,73,101", {}),
+
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
