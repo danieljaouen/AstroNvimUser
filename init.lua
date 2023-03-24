@@ -1,3 +1,5 @@
+vim.api.nvim_set_option_value("colorcolumn", "51,73,101", {})
+
 return {
   -- Configure AstroNvim updates
   updater = {
@@ -19,8 +21,6 @@ return {
 
   -- Set colorscheme to use
   colorscheme = "astrodark",
-
-  vim.api.nvim_set_option_value("colorcolumn", "51,73,101", {}),
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
