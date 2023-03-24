@@ -20,6 +20,7 @@ return {
       return opts
     end,
   },
+  { "github/copilot.vim", lazy = false },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
